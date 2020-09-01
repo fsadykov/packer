@@ -1,0 +1,12 @@
+{
+    "builders": [
+      {
+        "type": "googlecompute",
+        "project_id": "tidy-arcade-286601",
+        "source_image": "centos-7-v20200811",
+        "ssh_username": "centos-cloud",
+        "zone": "us-central1-a",
+        "disk_size": "20"
+      }
+    ]
+  }
